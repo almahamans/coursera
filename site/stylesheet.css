@@ -2,19 +2,20 @@
     box-sizing: border-box;  
 }
 body{
-    background-color: rgb(247, 243, 229);
+    background-color: rgb(252, 252, 252);
 }
 header{
     text-align: center;
     color:chocolate;
-   font-size: 60px;
-   margin-bottom: 30px;
+   font-size: 53px;
+   margin-bottom: 50px;
+   font-family:monospace;
 }
 #c1,#c2,#c3{
     background-color:lightgrey;
     border: 0px solid slateblue;
     margin: auto;
-    height: 150px;
+    height: 100px;
     border-radius: 10px;
     text-align: justify;
     
@@ -24,13 +25,14 @@ header{
 
 .n1,.n2,.n3{
 position: absolute ;
-width: 80px;
 text-align: justify;
 padding-left: 10px;
 color: white;
 border-radius: 5px;
 padding-bottom:5px;
 margin: auto;
+font-style: oblique;
+
 
 }
 .n1{
@@ -50,6 +52,7 @@ p{
     text-align: justify; 
     margin: 20px; 
     padding: 10px; 
+    font-size: large;
 }
 @media (min-width:992px){ 
 
@@ -58,7 +61,7 @@ p{
         float: left;
               }  
               .fornav{
-                width:10%;
+                width:15%;
               float: left;
               padding-right: 80px;             
           }
@@ -75,7 +78,7 @@ p{
                 float: left;
               }
               .fornav{
-                  width:10%;
+                  width:20%;
                 float: left;               
                 padding-right: 80px;
             }
@@ -90,7 +93,7 @@ p{
         float: left;
     }
     .fornav{
-        width:10%;
+        width:27%;
       float: left;  
       padding-right: 80px;
   }
